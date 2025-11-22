@@ -61,13 +61,12 @@
                                       &kp DEL        &lt 1 BSPC    &kp TAB      &kp RET  &lt 2 SPACE  &kp MINUS
             >;
         };
-
         Num {
             display-name = "Num";
             bindings = <
-              &trans     &trans            &trans     &trans      &kp LBRC    &kp RBRC   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-              &trans     &kp KP_MULTIPLY   &kp PLUS   &kp DOT     &kp LPAR    &kp RPAR   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
-&trans        &trans     &kp SLASH         &kp MINUS  &kp COMMA   &kp LBKT    &kp RBKT   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+              &trans     &trans            &trans     &trans      &kp LBRC    &kp RBRC   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL
+              &trans     &kp KP_MULTIPLY   &kp PLUS   &kp DOT     &kp LBKT    &kp RBKT   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
+&trans        &trans     &kp SLASH         &kp MINUS  &kp COMMA   &kp LPAR    &kp RPAR   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
                                    &trans     &trans      &trans      &kp EQUAL  &kp NUMBER_0        &kp DOLLAR
             >;
         };
@@ -76,7 +75,7 @@
             display-name = "Sym";
             bindings = <
                 &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp MINUS  &kp EQUAL
-                &trans    &trans  &kp TILDE &kp GRAVE   &kp GT         &kp LT     &kp LEFT       &kp UP_ARROW     &kp DOWN   &kp RIGHT
+                &trans    &trans  &kp TILDE &kp GRAVE   &kp LT         &kp GT     &kp LEFT       &kp UP_ARROW     &kp DOWN   &kp RIGHT
 &trans          &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans     &kp BACKSLASH  &kp HOME
                                   &trans    &trans      &trans         &trans     &trans         &trans
             >;
